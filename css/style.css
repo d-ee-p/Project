@@ -1,0 +1,167 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	/* border: 1px solid red; */
+}
+
+.container
+{
+	width: 100vw;
+	min-height: 100vh;
+	padding-left: 8%;
+	padding-right: 8%;
+	overflow: hidden;
+}
+
+.row
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 2vw 0 1vw;
+	padding-bottom: 10px;
+}
+
+.col-1
+{
+	flex-basis: 40%;
+	margin-left: 4vw;
+	position: relative;
+}
+
+.col-1 h2
+{
+	font-size: 3.8vw;
+}
+
+.col-1 h3
+{
+	font-size: 2.5vw;
+	font-weight: 100; /*font-weight: 100-900 is valid*/
+	color: #787878;
+	margin: 1.4vw 0 1.4vw;
+}
+
+.col-1 p
+{
+	font-size: 1.3vw;
+	color: #787878;
+	font-weight: 100;
+	margin: 2vw 0vw;
+}
+
+.col-1 h4
+{
+	font-size: 1.4vw;
+	margin: 2vw 0vw;
+}
+
+.col-1 button
+{
+	font-size: 0.8vw;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	width: 150px;
+	height: 40px;
+	padding: 10px 10px;
+	border-radius: 15px;
+	border: 0;
+	color: #fff;
+	outline: none;
+
+	background: #FC5C7D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	transition: width 0.5s;
+}
+
+button img
+{
+	width: 50px;
+	padding-left: 2vw;
+	display: none;
+}
+
+.col-1 button:hover
+{
+	width: 160px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.col-1 button:hover img
+{
+	display: block;
+}
+
+.col-1::after
+{
+	content: "";
+	width: 10px;
+	height: 57%;
+	background: linear-gradient(#ff469f,#ff6062);
+	position: absolute;
+	top: 0px;
+	left: -50px;
+}
+
+.col-2
+{
+	position: relative;
+	display: flex;
+	flex-basis: 60%;
+	align-items: center;
+}
+
+.col-2 .controller
+{
+	width: 90%;
+}
+
+.col-2 p a
+{
+	text-decoration: none;
+	color: #efefef;
+}
+
+.color-box
+{
+	position: absolute;
+	top: 0px;
+	right: -170px;
+	width: 80%;
+	height: 100%;
+	background: linear-gradient(#ff469f,#ff6062);
+	border-radius: 20px;
+	z-index: -1;
+	transition: width 0.5s;
+	/* transform: translate(170px); */
+}
+
+.add-btn
+{
+	text-align: center;
+}
+
+.add-img
+{
+	width: 33px;
+}
+
+.social-links
+{
+	align-items: center;
+	text-align: center;
+}
+
+.social-links img
+{
+	width: 28px;
+	margin: 80px 20px;
+}
