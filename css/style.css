@@ -71,9 +71,9 @@
 	color: #fff;
 	outline: none;
 
-	background: #FC5C7D;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #FC466B;
+	background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+	background: linear-gradient(to right, #3F5EFB, #FC466B);
 
 	transition: width 0.5s;
 }
@@ -105,7 +105,9 @@ button img
 	content: "";
 	width: 10px;
 	height: 57%;
-	background: linear-gradient(#ff469f,#ff6062);
+	background: #ec008c;
+	background: -webkit-linear-gradient(to right, #fc6767, #ec008c);
+	background: linear-gradient(to right, #fc6767, #ec008c);
 	position: absolute;
 	top: 0px;
 	left: -50px;
@@ -137,7 +139,13 @@ button img
 	right: -170px;
 	width: 80%;
 	height: 100%;
-	background: linear-gradient(#ff469f,#ff6062);
+	background: #ec008c;
+	background: -webkit-linear-gradient(to right, #fc6767, #ec008c);
+	background: linear-gradient(to right, #fc6767, #ec008c);
+
+
+
+
 	border-radius: 20px;
 	z-index: -1;
 	transition: width 0.5s;
